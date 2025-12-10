@@ -1,4 +1,4 @@
-package com.quocbao.hrm.helpers;
+package com.quocbao.tests.helpers;
 
 import java.io.File;
 

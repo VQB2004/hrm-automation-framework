@@ -1,4 +1,4 @@
-package com.quocbao.hrm.drivers;
+package com.quocbao.tests.drivers;
 
 import org.openqa.selenium.WebDriver;
 
@@ -13,8 +13,8 @@ public class DriverManager {
         driver.set(webDriver);
     }
 
-    public static void quitDriver(WebDriver webDriver){
-        driver.get().quit();
+    public static void quitDriver(){
+        DriverManager.driver.get().quit();
         driver.remove();
     }
 }

@@ -1,4 +1,4 @@
-package com.quocbao.hrm.utils;
+package com.quocbao.tests.utils;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

@@ -1,8 +1,8 @@
-package com.quocbao.hrm.keywords;
+package com.quocbao.tests.keywords;
 
-import com.quocbao.hrm.drivers.DriverManager;
-import com.quocbao.hrm.helpers.PropertiesHelper;
-import com.quocbao.hrm.utils.LogUtils;
+import com.quocbao.tests.drivers.DriverManager;
+import com.quocbao.tests.helpers.PropertiesHelper;
+import com.quocbao.tests.utils.LogUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;

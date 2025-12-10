@@ -1,4 +1,4 @@
-package com.quocbao.hrm.dataproviders;
+package com.quocbao.hrm_tests.dataproviders;
 
 import com.quocbao.hrm.helpers.ExcelHelper;
 import com.quocbao.hrm.helpers.SystemHelper;

@@ -1,13 +1,13 @@
-package com.quocbao.hrm.helpers;
+package com.quocbao.tests.helpers;
 
-import com.quocbao.hrm.utils.LogUtils;
+import com.quocbao.tests.utils.LogUtils;
 
 import java.io.*;
 import java.util.Properties;
 
 public class PropertiesHelper {
     private static final String CONFIGS_STRING =
-            "hrm-automation/src/test/resources/configs/config.properties";
+            "src/test/resources/configs/config.properties";
     private static Properties PROPERTIES = loadFile();
 
     private static Properties loadFile() {

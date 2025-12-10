@@ -1,4 +1,4 @@
-package com.quocbao.tests.drivers;
+package com.quocbao.hrm.drivers;
 
 import org.openqa.selenium.WebDriver;
 

@@ -1,6 +1,6 @@
-package com.quocbao.tests.helpers;
+package com.quocbao.hrm.helpers;
 
-import com.quocbao.tests.utils.LogUtils;
+import com.quocbao.hrm.utils.LogUtils;
 
 import java.io.*;
 import java.util.Properties;

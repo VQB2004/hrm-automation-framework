@@ -26,8 +26,9 @@ The framework is designed following **industry best practices**, focusing on **m
 ---
 
 ## 📂 Project Structure
+
+```text
 hrm-automation-framework
-│
 │
 ├── src/
 │   ├── main/
@@ -39,7 +40,7 @@ hrm-automation-framework
 │   │   │       ├── reports/        # Allure report configuration
 │   │   │       └── utils/          # Logging
 │   │   │
-│   │   └── resources/             
+│   │   └── resources/
 │   │
 │   └── test/
 │       ├── java/
@@ -54,8 +55,8 @@ hrm-automation-framework
 │           ├── data/               # Test data files
 │           └── suites/             # TestNG suite XML files
 │
-├── pom.xml                    # Maven configuration & dependency management
-├── README.md                  # Project documentation
+├── pom.xml        # Maven configuration & dependency management
+└── README.md     # Project documentation
 
 ---
 

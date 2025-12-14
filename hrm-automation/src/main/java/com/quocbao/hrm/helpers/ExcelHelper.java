@@ -38,21 +38,20 @@ public class ExcelHelper {
     public Object[][] getDataAsMap() {
         int totalRows = sheet.getPhysicalNumberOfRows();
         int totalCols = sheet.getRow(0).getLastCellNum();
-
-        // Skip header row
         Object[][] data = new Object[totalRows - 1][1];
         Row header = sheet.getRow(0);
 
-        // row 0 = header --> skip
         for (int rowIndex = 1; rowIndex < totalRows; rowIndex++) {
             Row row = sheet.getRow(rowIndex);
             Map<String, String> map = new HashMap<>(totalCols);
             for (int colIndex = 0; colIndex < totalCols; colIndex++) {
                 map.put(getDataCell(header.getCell(colIndex)),
                         getDataCell(row.getCell(colIndex)));
+
+
             }
-            data[rowIndex - 1][0] = map;
+            data[rowIndex-1][0]=map;
         }
-        return data;
+        return  data;
     }
 }

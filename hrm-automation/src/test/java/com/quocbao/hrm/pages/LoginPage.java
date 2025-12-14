@@ -34,7 +34,7 @@ public class LoginPage {
 
     public void loginHRM(String userName, String password) {
         WebUI.openURL(PropertiesHelper.getValue("URL"));
-        WebUI.watiForPageLoad();
+        WebUI.waitForPageLoad();
 
         WebUI.clearText(inputUserName);
         setUserName(userName);
@@ -43,7 +43,24 @@ public class LoginPage {
         setPassword(password);
 
         clickButtonLogin();
-        WebUI.watiForPageLoad();
+        WebUI.waitForPageLoad();
+
+    }
+
+    public HomePage loginHRM() {
+        WebUI.openURL(PropertiesHelper.getValue("URL"));
+        WebUI.waitForPageLoad();
+
+        WebUI.clearText(inputUserName);
+        setUserName("admin_example");
+
+        WebUI.clearText(inputPassword);
+        setPassword("123456");
+
+        clickButtonLogin();
+        WebUI.waitForPageLoad();
+
+        return new HomePage();
 
     }
 }

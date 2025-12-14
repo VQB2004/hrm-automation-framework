@@ -13,7 +13,7 @@ import org.testng.annotations.Parameters;
 public class BaseTest {
     @BeforeMethod
     @Parameters({"browser"})
-    public void createDriver(@Optional("chrome") String browser) {
+    public void createDriver(@Optional("edge") String browser) {
         WebDriver driver = setupDriver(browser);
         DriverManager.setDriver(driver);
     }

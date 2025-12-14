@@ -57,7 +57,7 @@ hrm-automation-framework
 │
 ├── pom.xml        # Maven configuration & dependency management
 └── README.md     # Project documentation
-
+```
 ---
 
 ## 🧪 Test Coverage
